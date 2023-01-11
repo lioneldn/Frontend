@@ -5,39 +5,149 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Lionel Nuñez</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     
-</head>
-<body>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col " >Logo Arg Prog</div>
-          <div class="col">esp/ing</div>
-          <div class="col">Redes</div>
-          <div class="col">Login</div>
+</head> 
+<body class="body" class="fuente"> 
+    <div class="container text-center" >
+        <div class="row" style="background-color: #FFCC8F;">
+          <div class="col " ><img  class="img" src="./imagenes/arg.png" alt="Logo Argentina programa"></div>
+          <div class="col"><div>Idioma/language</div><button><img src="./iconos/esp.png" alt=""></button><button><img src="./iconos/eng.png" alt=""></button></div>
+          <div class="col"><div><button > <img src="./iconos/facebook.png" alt=""></a></button></div> 
+         <div><button > <img src="./iconos/instagram.png" alt="" ></button></div></div> 
+          <div class="col"><button ><img src="./iconos/login.png" alt=""></button></div>
         </div>
         <div class="row">
-          <div class="col-8">Banner</div>
+          <div class="col"><img src="./imagenes/banner2.jpg"class="img-fluid"  alt=""></div>
         </div>
         <div class="row">
-          <div class="col-2">Foto</div>
-          <div class="col-10">Descripcion profesional</div>
+          <div class="col-1">Foto</div>
+          <div class="col-11"><p><h3>Descripcion profesional</h3></p>
+        <p><h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur vero sed omnis voluptatibus, reiciendis a accusamus unde officia. Ratione labore repudiandae iure rem id eaque libero error aut aspernatur corporis.</h6></p></div>
         </div>
         <div class="row">
-          <div class="col" >Experiencia laboral</div>
+          <div class="col" ><p> <h3>Esperiiencia Laboral</h3></p>
+        <p><h6>2022 - presente</h6></p>
+        <p><h6>Toolsoft SRL</h6></p>
+        <p><h6>Soporte tecnico en infraestructura informatica</h6></p>
+        <p><h6>2014 - 2022</h6></p>
+        <p><h6>Distribuidora Fedmart SRL</h6></p>
+        <p><h6>Encargado de deposito y mantenimiento de equipo informatico</h6></p>
+        <p><h6>2009 - presente</h6></p>
+        <p><h6>Tecnico en repasracion de computadoras (autonomo)</h6></p>
+      
+    </div>
         </div>
         <div class="row">
-          <div class="col">Foirmacion academica</div>
+          <div class="col"><h3>Formacion academica</h3>
+            <h6>2000 - 2004</h6>
+           <p><h6>Escuela secundaria  N° 3035 Nuestra Sra. del Valle</h6></p>
+           <p><h6>Título: Economía y gestión de las organizaciones</h6></p>
+          <p><h6>2009 - 2010</h6></p>
+          <p><h6>ICI - Instituto de Capacitación Integral</h6></p>
+           <p><h6>Título: Técnico en reparación de computadoras</h6></p>
+            </div>
         </div>
         <div class="row">
           <div class="col"> Cuadro visualizador habilidades</div>
         </div>
         <div class="row">
-          <div class="col">Proyectos</div>
+          <div class="col"><p><h3>Proyectos</h3></p>
+        <p><h6>Portfolio web de Argentina programa</h6></p></div>
         </div>
         <div class="row">
-          <div class="col"> Contacto</div>
+          <div class="col"> <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
+            
+            <div class="row">
+        
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Asunto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-12">
+        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Deja tu mensaje</label>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                    </form>
+        
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Rosario, Santa Fe</p>
+                        </li>
+        
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+543413161184</p>
+                        </li>
+        
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>lionelnuniez@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+        
+            </div>
+        
+        </section></div>
         </div>
       </div>
     <script src="./js/bootstrap.min.js"></script>
