@@ -1,13 +1,27 @@
 .body{
    
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: large;
-   
-}
+ }
 .img{
    border-radius: 35%;
    
 }
 h6{
    text-align: left;
+}
+
+.linea{
+   height: 1mm;
+width: auto;
+   background-color: black;
+margin: 2mm;
+}
+.lineav{
+   height: auto;
+   width: 20mm;
+   background-color: black;
+}
+button:hover{
+   background-color: blue;
 }
