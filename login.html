@@ -5,24 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="index.html">
+  
 </head>
-<body >
+<body class="bodylogin" >
     
     <div class="loginbox">
         <img class="icono" src="./imagenes/banner.png" alt="">
        <h1>LOGIN</h1>
-        <form action="">
+        <form name="login" action="">
             <label for="usuario">Usuario</label>
-            <input type="text" placeholder="ingresa nombre de usuario">
-            <label for="contraseña">Contraseña</label>
-            <input type="text" placeholder="ingresa la contraseña">
-            <input type="submit" value="Entrar">
+            <input type="text" value="" name="usuario" placeholder="ingresa nombre de usuario">
+            <label for="contraseña" >Contraseña</label>
+            <input type="password" value="" name="password" placeholder="ingresa la contraseña">
+            <input type="submit" value="Entrar" onclick="Login()">
             <a href="" style="color: blue;">No recuerdas tu contraseña?</a>
-           
-        </form>
+        
+        </form> 
     </div>
- 
+    <script language="JavaScript"> 
+        function Login() { 
+             if (document.login.usuario.value=="lioneldn.dev@gmail.com" && document.login.password.value=="proyecto0") { 
+           
+           window.location.assign("./index.html");
+       return false;
+           
+      }
+        else{
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+        
+        }
+        }
+                </script> 
     
 </body>
 </html>
